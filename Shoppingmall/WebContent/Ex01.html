@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function Sign(){
+	   
+	   sign = document.form.nation.selectedIndex;
+		alert(sindex);
+	// 아이디 나오게하기
+	
+	if( == 0){
+		alert("로그인 해주세요");
+		return false;
+		
+	}
+	else{
+		//
+		str = "회원가입 해주세요"+myform.join.option[].valse;
+	   alert(str);
+	}
+	
+	   
+}
+
+</script>
+</head>
+<body>
+
+	<form class="form-horizontal" role="form"  action="abc.jsp">>
+	<!-- form-horizontal : 수평 정렬 -->	
+		
+		
+	<!-- 로그인 화면을 가운대에 정렬하는 방법  -->	
+	
+	<!-- 아디 박스 밑으로 정렬하는 방법 :  -->	
+	
+		
+		<hr>
+
+		<h4 class="text-primary">로그인 해주세요</h4>
+
+        </hr>		
+		
+		<p>
+			<label>아이디</label>
+			<input type="text" name="userEmail1" placeholder="email"/> @<select name="userEmail2">
+				<option>직접입력</option>
+				<option value="nate.com">nate.com</option>
+				<option value="다음">daum.net</option>
+				<option value="naver.com">naver.com</option>			
+			</select>
+		</p>		
+
+			<div class="form-group">
+				<label for="Password" class="col-sm-2 col-lg-2 control-label">비밀번호</label><div class="col-sm-10 col-lg-10"><input type="password" class="form-control" id="inputPassword"placeholder="Password">
+				</div>
+			
+		<div class="form-group">
+        <button type="button" class="btn btn-primary btn-lg btn-block">로그인 </button>
+        <button type="button" class="btn btn-default btn-lg btn-block">회원 가입</button>
+      </div>
+      	
+		</form>
+
+</body>
+</html>
